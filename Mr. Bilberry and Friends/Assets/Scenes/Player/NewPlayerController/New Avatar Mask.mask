@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Avatar Mask
+  m_Mask: 01000000010000000100000000000000000000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/Pelvis
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg/Lefteg
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg/Lefteg/LeftFoot
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg/Lefteg/LeftFoot/LeftLeftToe
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg/Lefteg/LeftFoot/LeftLeftToe/LeftLeftToe_end
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg/Lefteg/LeftFoot/LeftMiddleToe
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg/Lefteg/LeftFoot/LeftMiddleToe/LeftMiddleToe_end
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg/Lefteg/LeftFoot/LeftRightToe
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/LeftHips/LeftUpLeg/Lefteg/LeftFoot/LeftRightToe/LeftRightToe_end
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg/RightLeg
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg/RightLeg/RightFoot
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg/RightLeg/RightFoot/RightLeftToe
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg/RightLeg/RightFoot/RightLeftToe/RightLeftToe_end
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg/RightLeg/RightFoot/RightMiddleToe
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg/RightLeg/RightFoot/RightMiddleToe/RightMiddleToe_end
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg/RightLeg/RightFoot/RightRightToe
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/RightHips/RightUpLeg/RightLeg/RightFoot/RightRightToe/RightRightToe_end
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/Spine
+    m_Weight: 0
+  - m_Path: Armature/Pelvis/Spine/Chest
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/LeftShoulder
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/LeftShoulder/LeftArm
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingers
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftFingers/LeftFingers_end
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftThumb
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftThumb/LeftThumb_end
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/Neck
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/Neck/Head
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/Neck/Head/Head_end
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/RightShoulder
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/RightShoulder/RightArm
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/RightShoulder/RightArm/RightForeArm
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand/RightFingers
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand/RightFingers/RightFingers_end
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand/RightThumb
+    m_Weight: 1
+  - m_Path: Armature/Pelvis/Spine/Chest/RightShoulder/RightArm/RightForeArm/RightHand/RightThumb/RightThumb_end
+    m_Weight: 1
+  - m_Path: PinguMaterial
+    m_Weight: 1

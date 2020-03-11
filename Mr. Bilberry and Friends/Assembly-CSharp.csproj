@@ -62,36 +62,74 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Backpack.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Camera\ACamera.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Camera\CameraCinemachine.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Camera\IMovable.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Camera\MainCameraLocal.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Camera\VCamEmpty.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Camera\VCamFree.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Camera\VCamMain.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\IPlayerController.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\InputSystem\InputMaster.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\MParentConstraint.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\PlayerLocalController.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\SchemaController.cs" />
+    <Compile Include="Assets\Scenes\Player\NewPlayerController\Tools\Tools.cs" />
     <Compile Include="Assets\Scenes\Player\PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Animation.Rigging.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Animation.Rigging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Flo.Tholgan/source/repos/Mr. Bilberry and Friends/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -269,6 +307,9 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>C:/Users/Flo.Tholgan/source/repos/MrBilberryAndFriends/Mr. Bilberry and Friends/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
