@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using Cinemachine;
 using UnityEngine;
+
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Users;
 
@@ -17,22 +19,19 @@ namespace Assets.Entities.Characters.NewPlayerController
         private ACamera mainCam;
         private CinemachineBrain brainCam;
         private Vector2 _vectorMove;
+        private Camera _cam;
 
 
         private void Awake()
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            //_controls = new InputMaster();
             brainCam = GetComponent<CinemachineBrain>();
+            _cam = GetComponent<Camera>();
 
 
-
-            //foreach (GameObject cam in cameras)
-            //{
-            //    if (cam.GetComponent<VCamFree>()) freeCams.Add(cam.GetComponent<VCamFree>());
-            //    if (cam.GetComponent<VCamMain>()) mainCam = cam.GetComponent<VCamMain>();
-            //}
+            var getCount = GameObject.FindGameObjectsWithTag("Player");
+            var count = getCount.Length;
 
             mainCam = cameras[0];
 
@@ -41,13 +40,12 @@ namespace Assets.Entities.Characters.NewPlayerController
                 cam.SetDeltaPosition(mainCam.transform.position);
                 cam.gameObject.SetActive(cam == mainCam);
             }
-            /*_controls.Camera.SwapCamera.performed += x => MainCameraBehavior();
-            _controls.Camera.SwapCamera.canceled += x => MainCameraBehavior();
 
-            _controls.Camera.MoveByMouse.started += x => Move(x.ReadValue<Vector2>());
+            Debug.Log("cullingMask : " + _cam.cullingMask);
 
-            _controls.Camera.MoveByStick.performed += x => MoveByStick(x.ReadValue<Vector2>());
-            _controls.Camera.MoveByStick.canceled += x => MoveByStick(Vector2.zero);*/
+            /*_cam.cullingMask = 9 + count;
+            mainCam.gameObject.layer = gameObject.layer;*/
+
         }
 
         public void OnMoveByStick(Vector2 vector2)
